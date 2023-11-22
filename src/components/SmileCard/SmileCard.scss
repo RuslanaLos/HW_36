@@ -1,0 +1,36 @@
+.SmileCard {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  div {
+    margin-top: 8px;
+  }
+
+  > div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+  }
+
+  > div:last-child {
+    text-align: center;
+
+    h3 {
+      margin: 0;
+      color: #333;
+    }
+
+    div {
+      color: #777;
+    }
+  }
+}
